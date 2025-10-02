@@ -1,0 +1,13 @@
+vectorizer:
+  lowercase: true
+  max_features: 5000
+  ngram_range_word: [1, 2]
+  ngram_range_char: [3, 5]
+  use_char: true
+  stop_words: english
+model:
+  type: ridge
+  alpha: 1.0
+  l1_ratio: 0.5
+  fit_intercept: true
+  normalize: false

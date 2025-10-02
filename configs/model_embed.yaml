@@ -1,0 +1,9 @@
+model_name: sentence-transformers/all-MiniLM-L6-v2
+cache_dir: ~/.cache/redditengage
+batch_size: 32
+pooling: mean
+regressor:
+  type: elasticnet
+  alpha: 0.1
+  l1_ratio: 0.1
+  fit_intercept: true
