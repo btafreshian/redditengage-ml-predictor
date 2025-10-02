@@ -1,0 +1,16 @@
+# Configuration for data ingestion and caching
+raw_path: data/sample/comments_small.jsonl
+generated_path: data/sample/_generated.jsonl
+prepared_path: data/processed/comments.parquet
+figures_dir: reports/figures
+html_dir: reports/html
+cache_dir: data/cache
+text_column: body
+id_column: id
+subreddit_column: subreddit
+author_column: author
+time_column: created_utc
+target_column: ups
+use_synthetic: true
+synthetic_rows: 3000
+synthetic_seed: 1337
